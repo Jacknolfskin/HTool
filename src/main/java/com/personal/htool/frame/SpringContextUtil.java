@@ -1,4 +1,4 @@
-package com.personal.htool.web;
+package com.personal.htool.frame;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

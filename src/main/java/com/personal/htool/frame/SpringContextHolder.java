@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.personal.htool.web;
+package com.personal.htool.frame;
 
 import org.apache.commons.lang3.Validate;
 import org.slf4j.Logger;
