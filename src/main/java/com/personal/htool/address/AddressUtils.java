@@ -16,7 +16,6 @@ public class AddressUtils {
     /**
      * 请求的参数 格式为：name=xxx&pwd=xxx
      * 服务器端请求编码。如GBK,UTF-8等
-     *
      * @return
      * @throws UnsupportedEncodingException
      */
@@ -27,10 +26,12 @@ public class AddressUtils {
             // 处理返回的省市区信息
             String[] temp = returnStr.split(",");
             if (temp.length < 3) {
-                return "0";// 无效IP，局域网测试
+                //无效IP，局域网测试
+                return "0";
             }
             String region = (temp[5].split(":"))[1].replaceAll("\"", "");
-            region = decodeUnicode(region);// 省份
+            // 省份
+            region = decodeUnicode(region);
 
             String country = "";
             String area = "";

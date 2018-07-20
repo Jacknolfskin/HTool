@@ -78,8 +78,17 @@
             <artifactId>ehcache</artifactId>
             <version>3.5.2</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.iflytek.voicecloud</groupId>
+            <artifactId>wx-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.6</version>
+        </dependency>
 
     </dependencies>
 
