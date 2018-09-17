@@ -6,8 +6,6 @@ import java.security.NoSuchAlgorithmException;
 /**
  * 主要用于验证数据的完整性，可以为数据创建“数字指纹”(散列值),结果具有唯一性 并且计算结果不可逆
  * 
- * @author long
- * 
  */
 public class MD5Util {
 	public static String encrypt(String s) throws NoSuchAlgorithmException {

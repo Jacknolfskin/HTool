@@ -23,7 +23,6 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HttpContext;
 import org.apache.http.util.CharsetUtils;
 import org.apache.http.util.EntityUtils;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
