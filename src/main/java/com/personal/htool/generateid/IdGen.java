@@ -81,8 +81,10 @@ public class IdGen {
 		return UUID.fromString(name).toString();
 	}
 	public static void main(String[] args) {
-		System.out.println(IdGen.uuid());
-		System.out.println(IdGen.uuid().length());
+		/*System.out.println(IdGen.uuid());
+		System.out.println(IdGen.uuid().length());*/
+
+		System.out.println();
 	}
 
 }
